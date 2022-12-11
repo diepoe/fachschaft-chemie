@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	body {
+		@apply bg-lime-400;
+	}
+	@font-face {
+		font-family: 'Sligoil';
+		src: local('Sligoil'), url('/static/fonts/sligoil-micro/Sligoil-Micro.woff2') format('woff2'),
+			url('/static/fonts/sligoil-micro/Sligoil-Micro.woff') format('woff'),
+			url('/static/fonts/sligoil-micro/Sligoil-Micro.otf') format('opentype');
+		font-display: swap;
+	}
+}
