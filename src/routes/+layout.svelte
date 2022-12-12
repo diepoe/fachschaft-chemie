@@ -5,7 +5,7 @@
 </script>
 
 <Nav />
-<main class="min-h-screen">
+<main class="min-h-screen w-full">
 	<slot />
 </main>
 
