@@ -11,11 +11,12 @@ module.exports = {
 				wissenschaftler: "url('/src/lib/assets/img/emoji_chemiker.png')"
 			},
 			fontFamily: {
+				cmu: ["'CMU Serif'", ...defaultTheme.fontFamily.serif],
 				sligoil: ["'Sligoil Micro'", ...defaultTheme.fontFamily.mono]
 			},
 			gridTemplateColumns: {
 				13: 'repeat(13, minmax(0, 1fr))',
-				26: 'repeat(26, minmax(0, 1fr))',
+				26: 'repeat(26, minmax(0, 1fr))'
 			}
 		}
 	},
