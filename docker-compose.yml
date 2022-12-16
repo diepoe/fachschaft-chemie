@@ -1,0 +1,17 @@
+version: '3.4'
+
+networks:
+  web:
+    external: true
+
+services:
+  chemiefachschaft:
+    build: .
+    restart: always
+    labels:
+      - traefik.http.routers.fachschaft-chemie.rule=Host(`fachschaft-chemie.heg-uelzen.de`)
+      - traefik.http.routers.fachschaft-chemie.tls=true
+      - traefik.http.routers.fachschaft-chemie.tls.certresolver=lets-encrypt
+      - traefik.port=80
+    networks:
+      - web
