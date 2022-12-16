@@ -14,7 +14,7 @@
 	@font-face {
 		font-family: 'CMU Serif';
 		font-style: normal;
-		src: local('CMU Serif'), url('/static/fonts/computer-modern/cmunrm.ttf') format('truetype');
+		src: local('CMU Serif'), url('/static/fonts/computer-modern/cmunorm.ttf') format('truetype');
 		font-display: swap;
 	}
 
