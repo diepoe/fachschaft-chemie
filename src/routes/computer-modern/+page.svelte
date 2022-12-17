@@ -6,6 +6,15 @@
 	import Footer from '$lib/components/Footer.svelte';
 </script>
 
+<svelte:head>
+	<meta name="theme-color" content="#ffffff" />
+	<style lang="css">
+		body {
+			@apply bg-white;
+		}
+	</style>
+</svelte:head>
+
 <Nav font="font-cmu" textStyle="" decoration="" selection="" />
 <main class="min-h-screen w-full">
 	<Hero font="font-cmu" bgColor="bg-white" textcolor="text-black" selection="">

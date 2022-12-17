@@ -6,6 +6,15 @@
 	import Footer from '$lib/components/Footer.svelte';
 </script>
 
+<svelte:head>
+	<meta name="theme-color" content="#a3e635" />
+	<style lang="css">
+		body {
+			@apply bg-lime-400;
+		}
+	</style>
+</svelte:head>
+
 <div class="bg-lime-400">
 	<Nav />
 	<main class="min-h-screen w-full">
