@@ -76,7 +76,7 @@
 	</div>
 
 	<section class="p-2 w-full lg:p-4 xl:p-5 border-2 {font} border-black rounded">
-		<div class="prose-sm md:prose xl:prose-lg prose-black md:max-w-none">
+		<div class="prose xl:prose-lg prose-black max-w-none">
 			<h1>{alphabet.find((letter) => letter.character === selectedLetter)?.title}</h1>
 			<p>
 				{@html alphabet.find((letter) => letter.character === selectedLetter)?.description}
