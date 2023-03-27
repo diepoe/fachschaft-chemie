@@ -40,7 +40,7 @@
 		{ character: 'S', title: 'S', description: 'some description', formula: '' },
 		{
 			character: 'T',
-			title: 'Treibhausgase',
+			title: 'Treibhausgase 🏭',
 			description:
 				'Treibhausgase wie Kohlenstoffdioxid sorgen für eine Verschlimmerung des Klimawandels. Die Wissenschaft ist darum bemüht, für die Zukunft Prozesse, welche große Mengen an Treibhausgasen ausstoßen, mit nachhaltigeren Alternativen zu ersetzen.',
 			formula: ''
