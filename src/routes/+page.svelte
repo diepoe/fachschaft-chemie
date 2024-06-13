@@ -41,7 +41,7 @@
 		selection=""
 	/>
 
-	<div class="h-4 lg:h-6 w-full" />
+	<div class="h-4 w-full lg:h-6" />
 	<ContentContainer font="font-cmu" selection="" proseColor="prose-black prose-a:text-blue-700">
 		<h2>Chemie am HEG</h2>
 		<p>
@@ -62,6 +62,14 @@
 				niedersächsischen Bildungsportal
 			</a> finden.
 		</p>
+		<h3>Chemieolympiade</h3>
+		<p>
+			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia blanditiis id ullam ipsum
+			obcaecati nesciunt odio, beatae, iste, soluta dolorum harum. Tempore non voluptas omnis
+			doloribus optio autem, reprehenderit laborum.
+		</p>
+		<h3>Kontakt</h3>
+		<p>Herr Frank Hemer: frank.hemer[at]heg-portal.de</p>
 	</ContentContainer>
 </main>
 <a href="/">

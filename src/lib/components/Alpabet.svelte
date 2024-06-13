@@ -17,7 +17,7 @@
 		{ character: 'B', title: 'B', description: 'some description', formula: '' },
 		{ character: 'C', title: 'Computerplatine', description: '🤖', formula: '' },
 		{ character: 'D', title: 'D', description: 'some description', formula: '' },
-		{ character: 'E', title: 'E', description: 'some description', formula: '' },
+		{ character: 'E', title: 'Explosion', description: '<iframe src="https://giphy.com/embed/yfEjNtvqFBfTa" width="480" height="360" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/epilepsy-warning-muppets-yfEjNtvqFBfTa">via GIPHY</a></p>', formula: '' },
 		{ character: 'F', title: 'Fluorid', description: 'In der Zahnpasta ist ein chemischer Stoff namens Fluorid enthalten.', formula: '' },
 		{ character: 'G', title: 'G', description: 'some description', formula: '' },
 		{ character: 'H', title: 'H', description: 'some description', formula: '' },
