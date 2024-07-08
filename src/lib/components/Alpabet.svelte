@@ -13,15 +13,21 @@
 			title: 'Alkohol',
 			description:
 				'Eine Gruppe von Verbindungen, die in Getränken, Desinfektionsmitteln und als Lösungsmittel vorkommen. In Getränken wirkt Ethanol berauschend und kann in hohen Dosen gesundheitsschädlich sein. In der Medizin wird Alkohol zur Desinfektion verwendet, da er Bakterien abtötet.',
-			formula: 'CH_{3}CH_{2}OH'
+			formula: '\\ce{C2H5OH}'
 		},
-		{ character: 'B', title: 'B', description: 'some description', formula: '' },
+		{
+			character: 'B',
+			title: 'Backpulver',
+			description:
+				'Ein Triebmittel, das in der Küche zum Lockern von Teigen verwendet wird. Es besteht hauptsächlich aus Natron (<i>Natriumhydrogencarbonat</i>) und einem säurehaltigen Stoff. Wenn Backpulver mit Flüssigkeit in Kontakt kommt, reagieren diese Komponenten und setzen Kohlendioxid frei. Dieses Gas lässt den Teig aufgehen und macht Backwaren locker und luftig. Backpulver ist ein einfacher Ersatz für Hefe und wird häufig für Kuchen, Muffins und andere Gebäckarten verwendet.',
+			formula: '\\ce{NaHCO3}'
+		},
 		{
 			character: 'C',
 			title: 'Chlor',
 			description:
 				'Ein Element, das zur Wasseraufbereitung und in Reinigungsmitteln verwendet wird. In Schwimmbädern tötet es schädliche Bakterien ab. Chlor ist auch Bestandteil von Kochsalz (Natriumchlorid) und somit in vielen Lebensmitteln enthalten.',
-			formula: 'Cl'
+			formula: '\\ce{Cl}'
 		},
 		{
 			character: 'D',
@@ -44,20 +50,62 @@
 				'Eine Gruppe von Nährstoffen, die in Lebensmitteln vorkommen und vom Körper als Energiespeicher genutzt werden. Fette sind wichtig für die Aufnahme bestimmter Vitamine. Es gibt gesättigte und ungesättigte Fettsäuren, wobei letztere als gesünder gelten.',
 			formula: ''
 		},
-		{ character: 'G', title: 'G', description: 'some description', formula: '' },
-		{ character: 'H', title: 'H', description: 'some description', formula: '' },
-		{ character: 'I', title: 'K', description: 'some description', formula: '' },
-		{ character: 'J', title: 'J', description: 'some description', formula: '' },
+		{
+			character: 'G',
+			title: 'Gärung',
+			description:
+				'Ein biologisch-chemischer Prozess, der bei der Herstellung von Brot, Bier und Wein eine Rolle spielt. Dabei wandeln Mikroorganismen wie Hefen Zucker in Alkohol und CO2 um. Die Gärung ist eine der ältesten biotechnologischen Methoden der Menschheit.',
+			formula: ''
+		},
+		{
+			character: 'H',
+			title: 'Haarspray',
+			description:
+				'Ein Kosmetikprodukt zur Fixierung von Frisuren. Es enthält Polymere wie <i>Polyvinylpyrrolidon</i>, die einen dünnen Film auf dem Haar bilden und es in Form halten. Moderne Haarsprays enthalten oft auch pflegende Zusätze und UV-Filter. Die Treibgase in Sprühdosen wurden umweltfreundlicher gestaltet, um die Ozonschicht zu schonen.',
+			formula: '\\ce{C6H9NO}'
+		},
+		{
+			character: 'I',
+			title: 'Isolierung',
+			description:
+				'Materialien, die Wärme, Elektrizität oder Schall schlecht leiten und zum Energiesparen eingesetzt werden. Gute Isolierung in Gebäuden reduziert Heizkosten und CO2-Emissionen. Beispiele sind Styropor, Mineralwolle oder spezielle Fensterverglasungen.',
+			formula: ''
+		},
+		{
+			character: 'J',
+			title: 'Joghurt',
+			description:
+				'Ein fermentiertes Milchprodukt, das durch Bakterienkulturen hergestellt wird. Die Bakterien wandeln Milchzucker in Milchsäure um, was zu einer Verdickung und dem charakteristischen säuerlichen Geschmack führt. Joghurt ist reich an Proteinen und Calcium und kann probiotische Kulturen enthalten, die sich positiv auf die Darmgesundheit auswirken.',
+			formula: ''
+		},
 		{
 			character: 'K',
 			title: 'Koffein',
 			description:
-				'Ein Wirkstoff, den wir Menschen etwa durch Kaffee oder Tee konsumieren, der stimulierend wirkt',
-			formula: 'C_{8}H_{10}N_{4}O_{2}'
+				'Ein Wirkstoff in Kaffee und Tee, der stimulierend wirkt. Er erhöht die Aufmerksamkeit und reduziert Müdigkeit. Koffein ist die am häufigsten konsumierte psychoaktive Substanz weltweit und findet sich auch in Cola und Energydrinks.',
+			formula: '\\ce{C8H10N4O2}'
 		},
-		{ character: 'L', title: 'L', description: 'some description', formula: '' },
-		{ character: 'M', title: 'M', description: 'some description', formula: '' },
-		{ character: 'N', title: 'N', description: 'some description', formula: '' },
+		{
+			character: 'L',
+			title: 'Lippenstift',
+			description:
+				'Ein kosmetisches Produkt zur Färbung und Pflege der Lippen. Lippenstifte bestehen aus Wachsen, Ölen, Pigmenten und oft auch Pflegestoffen wie Vitamin E. Die Farbpalette reicht von dezenten Naturtönen bis zu kräftigen Rottönen. Manche Lippenstifte enthalten auch UV-Schutz oder feuchtigkeitsspendende Inhaltsstoffe.',
+			formula: ''
+		},
+		{
+			character: 'M',
+			title: 'Mineralwasser',
+			description:
+				'Natürliches Wasser mit gelösten Mineralstoffen, das als Getränk konsumiert wird. Es stammt aus unterirdischen Quellen und enthält Mineralsalze und Spurenelemente. Die Zusammensetzung variiert je nach Herkunft und kann gesundheitsfördernde Wirkungen haben.',
+			formula: ''
+		},
+		{
+			character: 'N',
+			title: 'Nagellack',
+			description:
+				'Ein flüssiger Lack zur dekorativen Gestaltung der Fingernägel. Er besteht hauptsächlich aus Filmbildnern, Lösungsmitteln, Pigmenten und Weichmachern. Moderne Nagellacke sind oft schnelltrocknend und langanhaltend. Es gibt auch spezielle Formulierungen wie Gel-Lacke oder atmungsaktive Varianten für eine bessere Nagelgesundheit.',
+			formula: ''
+		},
 		{
 			character: 'O',
 			title: 'Oxidation',
@@ -70,27 +118,57 @@
 			title: 'Photosynthese',
 			description:
 				'Die Photosynthese ist einer der grundlegenden Prozesse, welche das Leben auf unserem blauen Planeten erst möglich machen! Durch diesen gewinnen Pflanzen unter Licht- und Wasserzufuhr beispielsweise Glucose und wandeln dabei Kohlenstoffdioxid in Sauerstoff um, womit für Fauna und Menschen die Versorgung mit Atemluft aufrecht erhalten bleibt.',
-			formula: '6CO_{2} + 12H_{2}O \\rarr C_6H_{12}O_6 + 6O_2 + 6 H_2O'
+			formula: '\\ce{6CO2 + 12H2O -> C6H12O6 + 6O2 + 6H2O}'
 		},
-		{ character: 'Q', title: 'Q', description: 'some description', formula: '' },
+		{
+			character: 'Q',
+			title: 'Quecksilber',
+			description:
+				'Ein flüssiges Metall, das früher in Thermometern verwendet wurde, aber aufgrund seiner Giftigkeit ersetzt wird. Quecksilber kann schwere gesundheitliche Schäden verursachen. Es findet sich noch in Energiesparlampen und einigen industriellen Anwendungen.',
+			formula: '\\ce{Hg}'
+		},
 		{
 			character: 'R',
 			title: 'Rost',
 			description:
 				'Das Produkt der Reaktion von Sauerstoff und Eisen (Oxidation), das Metalle zerstören kann.',
+			formula: '\\ce{4Fe + 3O2 + 2H2O -> 4Fe(OH)3}'
+		},
+		{
+			character: 'S',
+			title: 'Seife',
+			description:
+				'Ein Reinigungsmittel, das Fette löst und durch chemische Reaktionen hergestellt wird. Seifen bestehen aus Salzen von Fettsäuren und wirken als Emulgatoren. Sie ermöglichen es, dass sich Wasser und Fett vermischen, wodurch Schmutz abgewaschen werden kann.',
 			formula: ''
 		},
-		{ character: 'S', title: 'S', description: 'some description', formula: '' },
 		{
 			character: 'T',
-			title: 'Treibhausgase 🏭',
+			title: 'Treibhausgase',
 			description:
 				'Treibhausgase wie Kohlenstoffdioxid sorgen für eine Verschlimmerung des Klimawandels. Die Wissenschaft ist darum bemüht, für die Zukunft Prozesse, welche große Mengen an Treibhausgasen ausstoßen, mit nachhaltigeren Alternativen zu ersetzen.',
+			formula: '\\ce{CO2}'
+		},
+		{
+			character: 'U',
+			title: 'UV-Strahlung',
+			description:
+				'Energiereiche Strahlung der Sonne, vor der wir uns mit Sonnencreme schützen. UV-Strahlung kann Hautschäden und -krebs verursachen. Sie wird aber auch zur Desinfektion und in der Phototherapie eingesetzt.',
 			formula: ''
 		},
-		{ character: 'U', title: 'U', description: 'some description', formula: '' },
-		{ character: 'V', title: 'V', description: 'some description', formula: '' },
-		{ character: 'W', title: 'W', description: 'some description', formula: '' },
+		{
+			character: 'V',
+			title: 'Vitamine',
+			description:
+				'Wichtige organische Verbindungen, die der Körper für verschiedene Funktionen benötigt. Vitamine können vom Körper nicht oder nur unzureichend hergestellt werden und müssen daher mit der Nahrung aufgenommen werden. Mangel an bestimmten Vitaminen kann zu Krankheiten führen.',
+			formula: ''
+		},
+		{
+			character: 'W',
+			title: 'Waschmittel',
+			description:
+				'Chemische Produkte, die Schmutz und Flecken aus Textilien entfernen. Sie enthalten Tenside, die Schmutzpartikel lösen und in der Waschlauge halten. Moderne Waschmittel enthalten oft auch Enzyme, die biologische Flecken abbauen.',
+			formula: ''
+		},
 		{
 			character: 'X',
 			title: 'X-Ray (engl.: Röntgenstrahlung)',
@@ -98,23 +176,34 @@
 				'Eine Form elektromagnetischer Strahlung, die in der Medizin zur Bildgebung eingesetzt wird. Röntgenstrahlen durchdringen Gewebe und ermöglichen es Ärzten, Knochenbrüche, Zahnprobleme oder Lungenerkrankungen zu diagnostizieren. Sie werden auch in der Krebsbehandlung und bei Sicherheitskontrollen an Flughäfen verwendet.',
 			formula: ''
 		},
-		{ character: 'Y', title: 'Y', description: 'some description', formula: '' },
+		{
+			character: 'Y',
+			title: 'Yttrium',
+			description:
+				'Ein silberweißes, relativ weiches Metall aus der Gruppe der Seltenen Erden. Es wird in verschiedenen technologischen Anwendungen genutzt, wie in Leuchtstoffen für Bildschirme und LEDs, in Lasern für medizinische Behandlungen und in Legierungen zur Verbesserung der Materialeigenschaften. Yttriumverbindungen finden auch Verwendung in der Keramikherstellung und als Katalysatoren in der chemischen Industrie.',
+			formula: '\\ce{Y}'
+		},
 		{
 			character: 'Z',
 			title: 'Zucker',
 			description:
-				'Kohlenhydrate, die Lebensmitteln einen süßen Geschmack verleihen und als Energiequelle dienen. Eine der bekanntesten Zuckerformen ist die Glucose, welche unter anderem als Produkt der Photosynthese entsteht.',
-			formula: 'C_6H_{12}O_6'
+				'Kohlenhydrate, die Lebensmitteln einen süßen Geschmack verleihen und als Energiequelle dienen. Der bekannteste Zucker ist Saccharose (Haushaltszucker). Übermäßiger Zuckerkonsum kann zu Übergewicht und Zahnproblemen führen. In der Natur kommt Zucker in vielen Früchten und Pflanzen vor, in etwa in Form von Glucose, einem Produkt der Photosynthese.',
+			formula: '\\ce{C6H12O6}'
 		}
 	];
 
-	let selectedLetter = 'A';
+	let selectedLetter = getRandomLetter();
 
 	/**
 	 * @param {string} character
 	 */
 	function selectLetter(character) {
 		selectedLetter = character;
+	}
+
+	function getRandomLetter() {
+		const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+		return alphabet[Math.floor(Math.random() * alphabet.length)];
 	}
 </script>
 
