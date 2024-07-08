@@ -23,8 +23,8 @@
 	<ContentContainer font="font-cmu" selection="" proseColor="prose-black prose-a:text-blue-700">
 		<h2>Chemie von A-Z</h2>
 		<p>
-			Chemie lässt sich in all deinen Lebensbereichen wiederfinden: Von A wie Autoöl bis Z wie
-			Zellophantüte ist so gut wie jedes moderne Produkt auf Basis unserer Errungenschaften
+			Chemie lässt sich in all deinen Lebensbereichen wiederfinden: Von A wie Alkohol bis Z wie
+			Zucker ist so gut wie jedes moderne Produkt auf Basis unserer Errungenschaften
 			entwickelt. Selbst das simpelste biologische Leben wäre nicht ohne die Chemie möglich, doch im
 			Zuge des Klimawandels drohen chemische Prozesse auch, unserem bisherigen Leben den Garaus zu
 			machen.
