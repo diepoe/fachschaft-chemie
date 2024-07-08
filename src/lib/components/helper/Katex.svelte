@@ -1,5 +1,6 @@
 <script>
 	import katex from 'katex';
+	import 'katex/dist/contrib/mhchem';
 
 	/**
 	 * @type {string}
