@@ -150,10 +150,10 @@
 		},
 		{
 			character: 'U',
-			title: 'UV-Strahlung',
+			title: 'Uran',
 			description:
-				'Energiereiche Strahlung der Sonne, vor der wir uns mit Sonnencreme schützen. UV-Strahlung kann Hautschäden und -krebs verursachen. Sie wird aber auch zur Desinfektion und in der Phototherapie eingesetzt.',
-			formula: ''
+				'Ein radioaktives chemisches Element mit dem Symbol U und der Ordnungszahl 92. Es ist ein silbrig-weißes Metall, das in der Natur in geringen Mengen vorkommt. Uran ist vor allem für seine Verwendung in der Kernenergie bekannt. Das Isotop U-235 wird in Kernreaktoren zur Energieerzeugung und in Kernwaffen genutzt. ',
+			formula: '\\ce{U}'
 		},
 		{
 			character: 'V',
@@ -171,10 +171,10 @@
 		},
 		{
 			character: 'X',
-			title: 'X-Ray (engl.: Röntgenstrahlung)',
+			title: 'Xylitol',
 			description:
-				'Eine Form elektromagnetischer Strahlung, die in der Medizin zur Bildgebung eingesetzt wird. Röntgenstrahlen durchdringen Gewebe und ermöglichen es Ärzten, Knochenbrüche, Zahnprobleme oder Lungenerkrankungen zu diagnostizieren. Sie werden auch in der Krebsbehandlung und bei Sicherheitskontrollen an Flughäfen verwendet.',
-			formula: ''
+				'Ein Zuckeralkohol mit ähnlicher Süßkraft wie Zucker, aber weniger Kalorien. Es wird aus Pflanzenmaterie gewonnen. Xylitol hemmt Bakterienwachstum im Mund, wird in Zahnpflegeprodukten verwendet und erzeugt einen kühlenden Effekt beim Auflösen. In der Lebensmittelindustrie dient es als Süßungsmittel und Feuchthaltemittel.',
+			formula: '\\ce{C5H12O5}'
 		},
 		{
 			character: 'Y',
@@ -222,7 +222,7 @@
 	<section class="w-full border-2 p-2 lg:p-4 xl:p-5 {font} rounded border-black">
 		<div class="prose-black prose max-w-none xl:prose-lg">
 			<h1>{alphabet.find((letter) => letter.character === selectedLetter)?.title}</h1>
-			<p>
+			<p class="text-justify">
 				{@html alphabet.find((letter) => letter.character === selectedLetter)?.description}
 			</p>
 			{#if alphabet.find((letter) => letter.character === selectedLetter)?.formula != ''}
